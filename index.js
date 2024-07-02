@@ -96,4 +96,4 @@ app.get('/', function(req, res, next) {
     res.sendFile(path.join(__dirname, 'resource_0.dat'));
 });
 
-app.listen(port, () => console.log('Local development OPResource server initialized'));
+app.listen(port, 'localhost', () => console.log('Local development OPResource server initialized'));
