@@ -1,6 +1,0 @@
-*.png
-*.dds
-!icons/
-!textures/
-node_modules/
-temp/
